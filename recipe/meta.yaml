@@ -7,7 +7,7 @@ package:
 
 source:
   url: https://github.com/xcube-dev/xcube-geodb/archive/refs/tags/v{{ version }}.tar.gz
-  sha256: 409dd735c3298694b60209a2d78595b5af88d8ff9b63571f6ede5648bf6b6761
+  sha256: ab1da3c2f71b2f298c67382fa0de95780359cdacc6ff31ce7b030bf68e7dfb57
 
 build:
   number: 0

@@ -1,5 +1,5 @@
 {% set version = "1.0.10" %}
-
+{% set python_min = "3.6" %}
 
 package:
   name: xcube_geodb
@@ -10,7 +10,7 @@ source:
   sha256: ab1da3c2f71b2f298c67382fa0de95780359cdacc6ff31ce7b030bf68e7dfb57
 
 build:
-  number: 0
+  number: 1
   noarch: python
   script: {{ PYTHON }} -m pip install . -vv
   entry_points:
@@ -23,11 +23,11 @@ requirements:
     - setuptools
   run:
     - python >={{ python_min }}
-    - pip
     - geopandas
+    - pip
     - psycopg2
-    - requests
     - python-dotenv
+    - requests
     - shapely
 
 test:

@@ -11,7 +11,7 @@ Summary: xcube geoDB is a geo-spatial database within the xcube ecosystem.
 
 Development: https://github.com/xcube-dev/xcube-geodb
 
-Documentation: https://xcube_geodb.readthedocs.io
+Documentation: https://xcube-dev.github.io/xcube-geodb
 
 geodb is a Python package
 
